@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.679313">
+<testcase classname="Free CRM Application Test" name="Validate Free CRM Home Page Test" time="19.679313">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;[CRMPRO]&gt; but was:&lt;[]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at com.qa.stepDefinitions.HomePageSteps.validate_home_page_title(HomePageSteps.java:45)&#13;&#10;&#9;at ✽.Then validate home page title(E:/Work_Space/Naven/CucumberPOM/src/main/java/com/qa/features/freecrm.feature:8)&#13;&#10;"><![CDATA[Given user opens browser....................................................passed
+Then user is on login Page..................................................passed
+Then user logs into app.....................................................passed
+Then validate home page title...............................................failed
+Then validate logged in username............................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[CRMPRO]> but was:<[]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at com.qa.stepDefinitions.HomePageSteps.validate_home_page_title(HomePageSteps.java:45)
+	at ✽.Then validate home page title(E:/Work_Space/Naven/CucumberPOM/src/main/java/com/qa/features/freecrm.feature:8)
+]]></failure>
+</testcase>
+</testsuite>
